@@ -1,4 +1,4 @@
-# claude-shim
+# claude-code-shim
 
 A local HTTP proxy for Claude Code that appends a user-supplied override prompt to the request's `system` field before forwarding to the Anthropic API.
 
@@ -19,10 +19,10 @@ cargo install --path .
 From git directly:
 
 ```sh
-cargo install --git https://github.com/nakagawa-hayana/claude-shim
+cargo install --git https://github.com/nakagawa-hayana/claude-code-shim
 ```
 
-The binary is installed to `~/.cargo/bin/claude-shim`.
+The binary is installed to `~/.cargo/bin/claude-code-shim`.
 
 ## Configuration
 
